@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1600" width="900" height="1600">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#D9B982"/><stop offset="1" stop-color="#b88f55"/></linearGradient></defs>
-<rect width="900" height="1600" fill="url(#g)"/>
-<g fill="none" stroke="#173D38" stroke-opacity=".55" stroke-width="6">
-<rect x="342.0" y="640.0" width="216.0" height="256.0" rx="18.0"/>
-<circle cx="450.0" cy="768.0" r="45.0"/></g>
-<text x="450.0" y="1024.0" text-anchor="middle" font-family="Georgia,serif" font-size="56" fill="#173D38" fill-opacity=".85">Sua foto aqui</text>
-<text x="450.0" y="1088.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="26" fill="#173D38" fill-opacity=".6">projeto-08</text></svg>
