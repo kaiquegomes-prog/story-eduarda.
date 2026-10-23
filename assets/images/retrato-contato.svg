@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" width="1400" height="900">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2b2b2b"/><stop offset="1" stop-color="#173D38"/></linearGradient></defs>
+<rect width="1400" height="900" fill="url(#g)"/>
+<g fill="none" stroke="#f4eee3" stroke-opacity=".55" stroke-width="9">
+<rect x="532.0" y="360.0" width="336.0" height="144.0" rx="28.0"/>
+<circle cx="700.0" cy="432.0" r="70.0"/></g>
+<text x="700.0" y="576.0" text-anchor="middle" font-family="Georgia,serif" font-size="87" fill="#f4eee3" fill-opacity=".85">Sua foto aqui</text>
+<text x="700.0" y="612.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="41" fill="#f4eee3" fill-opacity=".6">retrato-contato</text></svg>
