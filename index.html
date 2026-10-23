@@ -1,0 +1,532 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Story Eduarda</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="header" id="header">
+
+        <a href="#inicio" class="brand">
+            Story <i>Eduarda</i>
+        </a>
+
+        <button class="menu-btn" type="button" aria-label="Abrir menu">
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="nav" id="nav">
+            <a href="#portfolio">Portfólio</a>
+            <a href="#valores">Valores</a>
+            <a href="#metodo">Como funciona</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- Inicio do site -->
+        <section class="hero" id="inicio">
+
+            <img class="hero__img"
+                 src="assets/images/capa-inicial.jpg"
+                 alt="Eduarda gravando com o celular">
+
+            <p class="hero__intro">
+                Vídeos e fotos que <br>
+                conectam, emocionam <br>
+                e vendem.
+            </p>
+
+            <h1 class="hero__title">
+                <span class="line"><span>Conheça</span></span>
+                <span class="line"><span>meus</span></span>
+                <span class="line"><span>melhores</span></span>
+                <span class="line"><span>projetos</span></span>
+            </h1>
+
+            <a href="#portfolio" class="hero__down">⌄</a>
+
+        </section>
+
+        <!-- Trabalhos -->
+        <div class="portfolio" id="portfolio">
+
+            <!-- Eventos -->
+            <section class="reel reel--light">
+
+                <div class="reel__inner">
+
+                    <h3 class="reel__title">Eventos</h3>
+
+                    <div class="reel__track-wrap">
+
+                        <ul class="reel__track">
+
+                            <li class="card">
+                                <button class="card__btn"
+                                        data-video="assets/videos/evento-01.mp4"
+                                        data-title="Eventos 01"
+                                        data-tag="Eventos">
+
+                                    <img src="assets/images/evento-01.jpg"
+                                         alt="Evento 1">
+
+                                    <span class="card__play"></span>
+                                </button>
+                            </li>
+
+                            <li class="card">
+                                <button class="card__btn"
+                                        data-video="assets/videos/evento-02.mp4"
+                                        data-title="Eventos 02"
+                                        data-tag="Eventos">
+
+                                    <img src="assets/images/evento-02.jpg"
+                                         alt="Evento 2">
+
+                                    <span class="card__play"></span>
+                                </button>
+                            </li>
+
+                        </ul>
+
+                        <div class="reel__nav">
+                            <button class="reel__arrow" data-dir="-1">‹</button>
+                            <button class="reel__arrow" data-dir="1">›</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Reels -->
+            <section class="reel reel--dark">
+
+                <div class="reel__inner">
+
+                    <h3 class="reel__title">Reels</h3>
+
+                    <div class="reel__track-wrap">
+
+                        <ul class="reel__track">
+
+                            <li class="card">
+                                <button class="card__btn"
+                                        data-video="assets/videos/reel-01.mp4"
+                                        data-title="Reels 01"
+                                        data-tag="Reels">
+
+                                    <img src="assets/images/reel-01.jpg"
+                                         alt="Reel 1">
+
+                                    <span class="card__play"></span>
+                                </button>
+                            </li>
+
+                            <li class="card">
+                                <button class="card__btn"
+                                        data-video="assets/videos/reel-02.mp4"
+                                        data-title="Reels 02"
+                                        data-tag="Reels">
+
+                                    <img src="assets/images/reel-02.jpg"
+                                         alt="Reel 2">
+
+                                    <span class="card__play"></span>
+                                </button>
+                            </li>
+
+                            <li class="card">
+                                <button class="card__btn"
+                                        data-video="assets/videos/reel-03.mp4"
+                                        data-title="Reels 03"
+                                        data-tag="Reels">
+
+                                    <img src="assets/images/reel-03.jpg"
+                                         alt="Reel 3">
+
+                                    <span class="card__play"></span>
+                                </button>
+                            </li>
+
+                        </ul>
+
+                        <div class="reel__nav">
+                            <button class="reel__arrow" data-dir="-1">‹</button>
+                            <button class="reel__arrow" data-dir="1">›</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
+
+        <!-- Antes e depois -->
+        <section class="comparison" id="antes-depois">
+
+            <div class="comparison__inner">
+
+                <p class="comparison__eyebrow">PROCESSO CRIATIVO</p>
+
+                <h2>Antes <em>&amp;</em> Depois</h2>
+
+                <p class="comparison__intro">
+                    Veja a transformação de uma captação original
+                    até a edição final.
+                </p>
+
+                <div class="comparison__grid">
+
+                    <article>
+                        <span class="comparison__tag">
+                            01 / ANTES DA EDIÇÃO
+                        </span>
+
+                        <video controls playsinline
+                               preload="metadata"
+                               poster="assets/images/antes.jpg">
+                            <source src="assets/videos/antes.mp4"
+                                    type="video/mp4">
+                        </video>
+
+                        <h3>Material original</h3>
+                    </article>
+
+                    <article>
+                        <span class="comparison__tag">
+                            02 / DEPOIS DA EDIÇÃO
+                        </span>
+
+                        <video controls playsinline
+                               preload="metadata"
+                               poster="assets/images/depois.jpg">
+                            <source src="assets/videos/depois.mp4"
+                                    type="video/mp4">
+                        </video>
+
+                        <h3>Resultado final</h3>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Areas de trabalho -->
+        <section class="niches">
+
+            <h2 class="niches__title">Nichos de atuação</h2>
+
+            <ul class="niches__list">
+                <li>Social media</li>
+                <li>Eventos corporativos</li>
+                <li>Eventos sociais</li>
+                <li>Casamento</li>
+                <li>Pré-wedding</li>
+                <li>Aniversário</li>
+                <li>Formatura</li>
+            </ul>
+
+        </section>
+
+        <!-- Pacotes -->
+        <section class="prices" id="valores">
+            <h2 class="prices__bar">Pacotes e valores</h2>
+            <div class="prices__wrap">
+                <p class="prices__intro">Conteúdo com propósito para marcas, histórias e momentos especiais.</p>
+                <div class="prices__tabs" role="tablist" aria-label="Categorias de serviços">
+                    <button type="button" class="prices__tab is-active" data-prices-tab="mensais" role="tab" id="tab-mensais" aria-selected="true" aria-controls="painel-mensais">Mensais</button>
+                    <button type="button" class="prices__tab" data-prices-tab="eventos" role="tab" id="tab-eventos" aria-selected="false" aria-controls="painel-eventos">Eventos</button>
+                    <button type="button" class="prices__tab" data-prices-tab="avulsos" role="tab" id="tab-avulsos" aria-selected="false" aria-controls="painel-avulsos">Avulsos</button>
+                </div>
+                <!-- Mensais -->
+                <div class="prices__panel" id="painel-mensais" role="tabpanel" aria-labelledby="tab-mensais">
+                    <div class="plans">
+                        <article class="plan">
+                            <h4>Essencial</h4>
+                            <p class="plan__price"><small>Investimento</small>R$ 600/mês</p>
+                            <p class="plan__period">3 dias de captação • até 2h por dia</p>
+                            <p class="plan__delivery">8 vídeos editados</p>
+                            <ul>
+                                <li>Roteiros simples</li>
+                                <li>Legendas e textos na tela</li>
+                                <li>Orientação de conteúdo</li>
+                            </ul>
+                            <a href="#" class="plan__button" data-pacote="Essencial">Solicitar orçamento</a>
+                        </article>
+                        <article class="plan">
+                            <h4>Estratégico</h4>
+                            <p class="plan__price"><small>Investimento</small>R$ 850/mês</p>
+                            <p class="plan__period">4 dias de captação • até 2h30 por dia</p>
+                            <p class="plan__delivery">12 vídeos editados</p>
+                            <ul>
+                                <li>Planejamento mensal</li>
+                                <li>Roteiros personalizados</li>
+                                <li>Storytelling e stories</li>
+                                <li>Legendas e textos na tela</li>
+                            </ul>
+                            <a href="#" class="plan__button" data-pacote="Estratégico">Solicitar orçamento</a>
+                        </article>
+                        <article class="plan">
+                            <h4>Premium</h4>
+                            <p class="plan__price"><small>Investimento</small>R$ 1.200/mês</p>
+                            <p class="plan__period">5 dias de captação • até 3h por dia</p>
+                            <p class="plan__delivery">18 vídeos editados</p>
+                            <ul>
+                                <li>Planejamento estratégico</li>
+                                <li>Roteiros personalizados</li>
+                                <li>Conteúdos comerciais e institucionais</li>
+                                <li>Stories, tendências e edição completa</li>
+                            </ul>
+                            <a href="#" class="plan__button" data-pacote="Premium">Solicitar orçamento</a>
+                        </article>
+                    </div>
+                </div>
+                <!-- Eventos -->
+                <div class="prices__panel" id="painel-eventos" role="tabpanel" aria-labelledby="tab-eventos" hidden>
+                    <div class="plans">
+                        <article class="plan">
+                            <h4>Storymaker</h4>
+                            <p class="plan__price"><small>Investimento</small>A partir de R$ 300</p>
+                            <p class="plan__period">Até 3h: R$ 300 • até 4h: R$ 450</p>
+                            <p class="plan__delivery">Stories em tempo real</p>
+                            <ul>
+                                <li>Bastidores</li>
+                                <li>Momentos importantes</li>
+                            </ul>
+                            <a href="#" class="plan__button" data-pacote="Storymaker">Solicitar orçamento</a>
+                        </article>
+                        <article class="plan">
+                            <h4>Videomaker</h4>
+                            <p class="plan__price"><small>Investimento</small>A partir de R$ 500</p>
+                            <p class="plan__period">Até 3h: R$ 500 • até 4h: R$ 650</p>
+                            <p class="plan__delivery">1 vídeo editado para Reels</p>
+                            <ul>
+                                <li>Captação do evento</li>
+                                <li>Edição e trilha sonora</li>
+                            </ul>
+                            <a href="#" class="plan__button" data-pacote="Videomaker">Solicitar orçamento</a>
+                        </article>
+                        <article class="plan">
+                            <h4>Cobertura Completa</h4>
+                            <p class="plan__price"><small>Investimento</small>A partir de R$ 700</p>
+                            <p class="plan__period">Até 3h: R$ 700 • até 4h: R$ 850</p>
+                            <p class="plan__delivery">Stories + 1 vídeo editado</p>
+                            <ul>
+                                <li>Cobertura em tempo real</li>
+                                <li>Registro dos momentos principais</li>
+                            </ul>
+                            <a href="#" class="plan__button" data-pacote="Cobertura Completa">Solicitar orçamento</a>
+                        </article>
+                    </div>
+                </div>
+                <!-- Avulsos -->
+                <div class="prices__panel" id="painel-avulsos" role="tabpanel" aria-labelledby="tab-avulsos" hidden>
+                    <div class="plans">
+                        <article class="plan">
+                            <h4>Edição de vídeo</h4>
+                            <p class="plan__price"><small>Investimento</small>A partir de R$ 60</p>
+                            <p class="plan__period">Conforme a complexidade</p>
+                            <p class="plan__delivery">Vídeos para redes sociais</p>
+                            <ul>
+                                <li>Cortes e ritmo</li>
+                                <li>Legendas e textos</li>
+                            </ul>
+                            <a href="#" class="plan__button" data-pacote="Edição de vídeo">Solicitar orçamento</a>
+                        </article>
+                        <article class="plan">
+                            <h4>Captação de conteúdo</h4>
+                            <p class="plan__price"><small>Investimento</small>A partir de R$ 200</p>
+                            <p class="plan__period">Até 2 horas</p>
+                            <p class="plan__delivery">Gravação avulsa</p>
+                            <ul>
+                                <li>Captação planejada</li>
+                                <li>Material para redes sociais</li>
+                            </ul>
+                            <a href="#" class="plan__button" data-pacote="Captação de conteúdo">Solicitar orçamento</a>
+                        </article>
+                        <article class="plan">
+                            <h4>Social Media</h4>
+                            <p class="plan__price"><small>Investimento</small>Sob orçamento</p>
+                            <p class="plan__period">Serviço personalizado</p>
+                            <p class="plan__delivery">Gerenciamento de perfil</p>
+                            <ul>
+                                <li>Organização de conteúdo</li>
+                                <li>Planejamento de publicações</li>
+                            </ul>
+                            <a href="#" class="plan__button" data-pacote="Social Media">Solicitar orçamento</a>
+                        </article>
+                    </div>
+                </div>
+                <p class="prices__note">
+                    <strong>Casamentos a partir de R$ 800,00.</strong>
+                    Diárias e captações avulsas sob consulta.
+                    <a href="#" data-casamento>Pedir orçamento</a>
+                </p>
+            </div>
+        </section>
+
+        <!-- Como funciona -->
+        <section class="method" id="metodo">
+
+            <h2>Como funciona</h2>
+
+            <ol class="method__list">
+
+                <li>
+                    <h3>Conversa inicial</h3>
+                    <p>
+                        Entendo sua marca, seu evento e o que
+                        você quer comunicar.
+                    </p>
+                </li>
+
+                <li>
+                    <h3>Planejamento</h3>
+                    <p>
+                        Organizo roteiro, referências e
+                        cronograma de captação.
+                    </p>
+                </li>
+
+                <li>
+                    <h3>Produção</h3>
+                    <p>
+                        Gravo e fotografo no formato vertical,
+                        pensado para o celular.
+                    </p>
+                </li>
+
+                <li>
+                    <h3>Entrega</h3>
+                    <p>
+                        Você recebe tudo editado e pronto
+                        para postar.
+                    </p>
+                </li>
+
+            </ol>
+
+        </section>
+
+        <!-- Sobre a Eduarda -->
+        <section class="about" id="sobre">
+
+            <img src="assets/images/foto-final.jpg"
+                 alt="Foto da Eduarda">
+
+            <div class="about__text">
+
+                <h2>Meu nome é Eduarda.</h2>
+
+                <p>
+                    Sou storymaker em Itapecerica da Serra, SP.
+                    Transformo o dia a dia de marcas, eventos
+                    e casamentos em histórias em movimento,
+                    com vídeo vertical, foto e estratégia.
+                </p>
+
+                <p>
+                    Sua história em movimento começa
+                    com uma conversa.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- Contato -->
+        <section class="contact" id="contato">
+
+            <img src="assets/images/foto-final.jpg"
+                 alt="Eduarda">
+
+            <div class="contact__box">
+
+                <h2>Conte comigo pro seu próximo vídeo!</h2>
+
+                <div class="contact__chips">
+
+                    <a href="#" class="chip" data-wa=""
+                       target="_blank">
+                        Pedir orçamento no WhatsApp
+                    </a>
+
+                    <a href="#" class="chip" data-ig=""
+                       target="_blank">
+                        Ver o Instagram @story_eduarda
+                    </a>
+
+                    <a href="#" class="chip" data-mail="" hidden>
+                        Enviar e-mail
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Rodape -->
+    <footer class="footer">
+
+        <p>
+            © <span id="year">2026</span>
+            Story Eduarda. Itapecerica da Serra, SP.
+        </p>
+
+        <p>
+            <a href="#inicio">Voltar ao topo</a>
+        </p>
+
+    </footer>
+
+    <!-- Janela que abre os videos -->
+    <div class="modal" id="modal" hidden>
+
+        <div class="modal__panel">
+
+            <button class="modal__close" type="button">×</button>
+
+            <div class="modal__media" id="modal-media"></div>
+
+            <div class="modal__info">
+                <h3 id="modal-title"></h3>
+                <p id="modal-tag"></p>
+                <p class="modal__hint" id="modal-hint"></p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
